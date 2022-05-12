@@ -189,11 +189,25 @@ margin-left:  50px;
 }
 
 .link-mail::before {
+    display: inline-block;
     content: "";
     width: 16px;
     height: 12px;
     margin-right: 10px;
-    background-image: url(../Images/symbol-defs.svg#icon-mail);
+    background-image: url(../Images/mail.svg);
+
+    background-position: center;
+    background-size: contain;
+}
+
+.link-phone::before {
+    display: inline-block;
+    content: "";
+    width: 10px;
+    height: 16px;
+    margin-right: 10px;
+    background-image: url(../Images/phone.svg);
+    background-position: center;
     background-size: contain;
 }
 
