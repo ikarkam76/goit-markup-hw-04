@@ -187,6 +187,16 @@ margin-left:  50px;
 
     color: var(--footer-contact-text-color);
 }
+
+.link-mail::before {
+    content: "";
+    width: 16px;
+    height: 12px;
+    margin-right: 10px;
+    background-image: url(../Images/symbol-defs.svg#icon-mail);
+    background-size: contain;
+}
+
 .site-nav {
     font-weight: 500;
     font-size: 14px;
@@ -216,11 +226,19 @@ margin-left:  50px;
 /* hero */
 
 .hero {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
 
-    background-color: var(--secondary-background-color);
+    background-image: linear-gradient( to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../Images/bgimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .hero-title {
