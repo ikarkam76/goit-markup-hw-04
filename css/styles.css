@@ -553,7 +553,8 @@ h1, h2, h3, p, ul {
     fill: currentColor;
 }
 
-.client .link:hover {
+.client .link:hover,
+.client .link:focus {
     color: var(--link-active-color);
     border-color: var(--link-active-color);
 }
